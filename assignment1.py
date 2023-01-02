@@ -53,6 +53,7 @@ def load_books(filename):
 
 
 def add_books(book_list):
+    # add new books
     title = add_title()
     author = add_author()
     pages = add_pages()
